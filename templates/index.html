@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anomaly Detection</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .plot {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="plot">
+            <img src="data:image/png;base64,{{ img }}" alt="Anomaly Detection Plots" />
+        </div>
+        <div class="plot">
+            <img src="data:image/png;base64,{{ img_accuracy }}" alt="Accuracy Plot" />
+        </div>
+    </div>
+</body>
+</html>
+
+
+
